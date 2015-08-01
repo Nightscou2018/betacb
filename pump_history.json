@@ -1,5 +1,23 @@
 [
   {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-02T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438473600000.0, 
+    "timestamp": "2015-08-02T00:00:00", 
+    "_body": "050c00e800000000040a03f662001402000000140200000000000000146402000000020c00e8000000", 
+    "_head": "6d", 
+    "_date": "810f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-02T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438473600000.0, 
+    "timestamp": "2015-08-02T00:00:00", 
+    "_body": "", 
+    "_head": "070000040a", 
+    "_date": "810f"
+  }, 
+  {
     "programmed": 0.3, 
     "_type": "Bolus", 
     "_description": "Bolus 2015-08-01T07:06:47 head[4], body[0] op[0x01]", 
@@ -1266,23 +1284,5 @@
     "_body": "050c00e8000000000362036264000000000000000000000000000000000000000000000c00e8000000", 
     "_head": "6d", 
     "_date": "7c0f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-06-29T00:00:00 head[5], body[0] op[0x07]", 
-    "date": 1435536000000.0, 
-    "timestamp": "2015-06-29T00:00:00", 
-    "_body": "", 
-    "_head": "0700000362", 
-    "_date": "7c0f"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2015-06-28T00:00:00 head[1], body[41] op[0x6d]", 
-    "date": 1435449600000.0, 
-    "timestamp": "2015-06-28T00:00:00", 
-    "_body": "050c00e8000000000360036064000000000000000000000000000000000000000000000c00e8000000", 
-    "_head": "6d", 
-    "_date": "7b0f"
   }
 ]
