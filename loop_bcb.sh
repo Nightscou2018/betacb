@@ -43,7 +43,7 @@ openaps report invoke bg_targets.json.new
 openaps report invoke isf.json.new
 openaps report invoke current_basal_profile.json.new
 openaps report invoke carb_ratio.json.new
-nodejs getprofile.js pump_settings.json.new bg_targets.json.new isf.json.new current_basal_profile.json.new carb_ratio.json.new > profile.json.new
+nodejs getprofile.js pumpsettings.json.new bg_targets.json.new isf.json.new current_basal_profile.json.new carb_ratio.json.new > profile.json.new
 
 openaps report invoke pump_history.json
 nodejs iob.js pump_history.json profile.json.new clock.json > iob.json.new
