@@ -81,7 +81,6 @@ grep sens profile.json.new && cp profile.json.new profile.json
 grep iob iob.json.new && cp iob.json.new iob.json
 grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
 
-
 tail profile.json
 tail iob.json
 tail requestedtemp.json
