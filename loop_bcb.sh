@@ -65,7 +65,7 @@ grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
 
 tail clock.json
 tail currenttemp.json
-head -20 pumph_history.json
+head -20 pump_history.json
 
 echo "Querying pump settings"
 openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" && git pull && git push
