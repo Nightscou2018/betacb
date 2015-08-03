@@ -43,12 +43,12 @@ openaps report invoke bg_targets.json
 openaps report invoke isf.json
 openaps report invoke current_basal_profile.json
 openaps report invoke carb_ratio.json
-nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_profile.json carb_ratio.json > profile.json
+nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_profile.json carb_ratio.json > profile.json.new
 
 openaps report invoke pump_history.json
-nodejs iob.js pump_history.json profile.json clock.json > iob.json
+nodejs iob.js pump_history.json profile.json.new clock.json > iob.json.new
 
-nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > predict-basal.json
+nodejs determine-basal.js iob.json.new currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
 find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
 openaps report invoke currenttemp.json.new
@@ -58,17 +58,15 @@ grep timestamp pumphistory.json.new && cp pumphistory.json.new pumphistory.json
 
 
 #openaps suggest
-#grep sens profile.json.new && cp profile.json.new profile.json
-#grep iob iob.json.new && cp iob.json.new iob.json
-#grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
-#git fetch origin master && git merge -X ours origin/master && git push
-#git pull && git push
+grep sens profile.json.new && cp profile.json.new profile.json
+grep iob iob.json.new && cp iob.json.new iob.json
+grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
 
-#tail clock.json
-#tail currenttemp.json
-#head -20 pumphistory.json
+tail clock.json
+tail currenttemp.json
+head -20 pumph_history.json
 
-#echo "Querying pump settings"
+echo "Querying pump settings"
 #openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" && git pull && git push
 #grep insulin_action_curve pump_settings.json.new && cp pump_settings.json.new pump_settings.json
 #grep "mg/dL" bg_targets.json.new && cp bg_targets.json.new bg_targets.json
