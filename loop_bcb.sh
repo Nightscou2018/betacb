@@ -38,7 +38,7 @@ grep status status.json.new && cp status.json.new status.json
 echo "Querying pump time and five other pump queries"
 openaps pumptime || openaps pumptime || die "Can't query pump"
 #openaps pumpquery || openaps pumpquery
-openaps report pump_settings.json.new
+openaps report invoke pump_settings.json.new
 openaps report invoke bg_targets.json.new
 openaps report invoke isf.json.new
 openaps report invoke current_basal_profile.json.new
