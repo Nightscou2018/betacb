@@ -48,6 +48,7 @@ nodejs getprofile.js pump_settings.json.new bg_targets.json.new isf.json.new cur
 openaps report invoke pump_history.json
 nodejs iob.js pump_history.json profile.json.new clock.json > iob.json.new
 
+
 nodejs determine-basal.js iob.json.new currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
 find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
@@ -69,34 +70,23 @@ head -20 pumph_history.json
 echo "Querying pump settings"
 openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" && git pull && git push
 grep insulin_action_curve pump_settings.json.new && cp pump_settings.json.new pump_settings.json
-#grep "mg/dL" bg_targets.json.new && cp bg_targets.json.new bg_targets.json
-#grep sensitivity isf.json.new && cp isf.json.new isf.json
-#grep rate current_basal_profile.json.new && cp current_basal_profile.json.new current_basal_profile.json
-#grep grams carb_ratio.json.new && cp carb_ratio.json.new carb_ratio.json
+grep "mg/dL" bg_targets.json.new && cp bg_targets.json.new bg_targets.json
+grep sensitivity isf.json.new && cp isf.json.new isf.json
+grep rate current_basal_profile.json.new && cp current_basal_profile.json.new current_basal_profile.json
+grep grams carb_ratio.json.new && cp carb_ratio.json.new carb_ratio.json
 
 #openaps suggest || die "Can't calculate IOB or basal"
-#grep sens profile.json.new && cp profile.json.new profile.json
-#grep iob iob.json.new && cp iob.json.new iob.json
-#grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
-#git fetch origin master && git merge -X ours origin/master && git push
-#git pull && git push
-#tail profile.json
-#tail iob.json
-#tail requestedtemp.json
+nodejs determine-basal.js iob.json.new currenttemp.json glucose.json profile.json > requestedtemp.json.new
+grep sens profile.json.new && cp profile.json.new profile.json
+grep iob iob.json.new && cp iob.json.new iob.json
+grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
 
-#grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
-#git fetch origin master && git merge -X ours origin/master && git push
-#openaps report invoke enactedtemp.json
 
-#if /usr/bin/curl -sk https://diyps.net/closedloop.txt | /bin/grep set; then
-    #echo "No lockfile: continuing"
-    #touch /tmp/carelink.lock
-    #/usr/bin/curl -sk https://diyps.net/closedloop.txt | while read x rate y dur op; do cat <<EOF
-        #{ "duration": $dur, "rate": $rate, "temp": "absolute" }
-#EOF
-    #done | tee requestedtemp.json
+tail profile.json
+tail iob.json
+tail requestedtemp.json
 
-    #openaps report invoke enactedtemp.json
-#fi
-        
+grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
+openaps report invoke enactedtemp.json
+
 
