@@ -46,7 +46,7 @@ openaps report invoke carb_ratio.json.new
 nodejs getprofile.js pumpsettings.json.new bg_targets.json.new isf.json.new current_basal_profile.json.new carb_ratio.json.new > profile.json.new
 
 openaps report invoke pump_history.json
-nodejs iob.js pump_history.json profile.json.new clock.json > iob.json.new
+nodejs iob.js pump_history.json profile.json.new clock.json.new > iob.json.new
 
 
 nodejs determine-basal.js iob.json.new currenttemp.json glucose.json profile.json > requestedtemp.json.new
