@@ -23,7 +23,6 @@ function basalLookup() {
         }
     }
     profile.current_basal= basalRate;
-    console.log(basalRate);
 }
 
 function bgTargetsLookup(){
