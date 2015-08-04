@@ -48,6 +48,7 @@ cp bg_targets.json.new bg_targets.json
 cp isf.json.new isf.json
 cp current_basal_profile.json.new current_basal_profile.json
 cp carb_ratio.json.new carb_ratio.json
+cp clock.json.new clock.json
 
 nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_profile.json carb_ratio.json > profile.json.new
 
