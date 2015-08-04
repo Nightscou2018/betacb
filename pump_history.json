@@ -1,6 +1,24 @@
 [
   {
     "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-05T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438754400000.0, 
+    "timestamp": "2015-08-05T00:00:00", 
+    "_body": "050c00e80000000003f603f664000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "840f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-05T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438754400000.0, 
+    "timestamp": "2015-08-05T00:00:00", 
+    "_body": "", 
+    "_head": "07000003f6", 
+    "_date": "840f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2015-08-04T00:00:00 head[1], body[41] op[0x6d]", 
     "date": 1438668000000.0, 
     "timestamp": "2015-08-04T00:00:00", 
@@ -1280,23 +1298,5 @@
     "_body": "", 
     "_head": "2100", 
     "_date": "5ece0f050f"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2015-07-05T15:14:28 head[2], body[0] op[0x21]", 
-    "date": 1436130868000.0, 
-    "timestamp": "2015-07-05T15:14:28", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "5cce0f050f"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2015-07-05T15:14:25 head[2], body[0] op[0x21]", 
-    "date": 1436130865000.0, 
-    "timestamp": "2015-07-05T15:14:25", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "59ce0f050f"
   }
 ]
