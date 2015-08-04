@@ -77,7 +77,7 @@ tail currenttemp.json
 head -20 pump_history.json
 
 echo "Querying pump settings"
-openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" && git pull && git push
+openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" 
 grep insulin_action_curve pump_settings.json.new && cp pump_settings.json.new pump_settings.json
 grep "mg/dL" bg_targets.json.new && cp bg_targets.json.new bg_targets.json
 grep sensitivity isf.json.new && cp isf.json.new isf.json
@@ -94,7 +94,7 @@ tail profile.json
 tail iob.json
 tail requestedtemp.json
 
-grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
-openaps report invoke enactedtemp.json
+#grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
+#openaps report invoke enactedtemp.json
 
 
