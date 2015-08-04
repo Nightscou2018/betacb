@@ -28,7 +28,7 @@ function basalLookup() {
 function bgTargetsLookup(){
     var now = new Date();
     
-    //bgtargets_data.targets.sort(function (a, b) { return a.offset > b.offset });
+   // bgtargets_data.targets.sort(function (a, b) { return a.offset > b.offset });
     var bgTargets = bgtargets_data.targets[bgtargets_data.targets.length - 1]
     
     for (var i = 0; i < bgtargets_data.targets.length - 1; i++) {
@@ -70,7 +70,7 @@ function isfLookup() {
 }
 
 function maxDailyBasal(){
-    basalprofile_data.sort(function (a, b) { return a.rate < b.rate });
+    //basalprofile_data.sort(function (a, b) { return a.rate < b.rate });
     profile.max_daily_basal = basalprofile_data[0].rate;
 }
 
