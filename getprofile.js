@@ -30,7 +30,6 @@ function bgTargetsLookup(){
     
    // bgtargets_data.targets.sort(function (a, b) { return a.offset > b.offset });
     var bgTargets = bgtargets_data.targets[bgtargets_data.targets.length - 1]
-    
     for (var i = 0; i < bgtargets_data.targets.length - 1; i++) {
         if ((now >= getTime(bgtargets_data.targets[i].offset)) && (now < getTime(bgtargets_data.targets[i + 1].offset))) {
             bgTargets = bgtargets_data.targets[i];
@@ -96,7 +95,7 @@ if (!module.parent) {
     
     var cwd = process.cwd()
     var pumpsettings_data = cwd + '/' + pumpsettings_input;
-    var bgtargets_data = cwd + '/' + bgtargets_input ;
+    var bgtargets_data = cwd + '/' + bgtargets_input;
     var isf_data = cwd + '/' + isf_input;
     var basalprofile_data = cwd + '/' + basalprofile_input;
     var carbratio_data = cwd + '/' + carbratio_input;
