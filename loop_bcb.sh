@@ -43,13 +43,21 @@ openaps report invoke bg_targets.json.new
 openaps report invoke isf.json.new
 openaps report invoke current_basal_profile.json.new
 openaps report invoke carb_ratio.json.new
-nodejs getprofile.js pumpsettings.json.new bg_targets.json.new isf.json.new current_basal_profile.json.new carb_ratio.json.new > profile.json.new
+cp pump_settings.json.new pump_settings.json
+cp bg_targets.json.new bg_targets.json
+cp isf.json.new isf.json
+cp current_basal_profile.json.new current_basal_profile.json
+cp carb_ratio.json.new carb_ratio.json
+
+nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_profile.json carb_ratio.json > profile.json.new
+
+cp profile.json.new profile.json
 
 openaps report invoke pump_history.json
-nodejs iob.js pump_history.json profile.json.new clock.json.new > iob.json.new
+nodejs iob.js pump_history.json profile.json clock.json > iob.json.new
+cp iob.json.new iob.json
 
-
-nodejs determine-basal.js iob.json.new currenttemp.json glucose.json profile.json > requestedtemp.json.new
+nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
 find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
 openaps report invoke currenttemp.json.new
@@ -76,7 +84,7 @@ grep rate current_basal_profile.json.new && cp current_basal_profile.json.new cu
 grep grams carb_ratio.json.new && cp carb_ratio.json.new carb_ratio.json
 
 #openaps suggest || die "Can't calculate IOB or basal"
-nodejs determine-basal.js iob.json.new currenttemp.json glucose.json profile.json > requestedtemp.json.new
+nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
 grep sens profile.json.new && cp profile.json.new profile.json
 grep iob iob.json.new && cp iob.json.new iob.json
 grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
