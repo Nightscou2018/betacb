@@ -95,11 +95,11 @@ if (!module.parent) {
     }
     
     var cwd = process.cwd()
-    var pumpsettings_data = require(cwd + '/' + pumpsettings_input);
-    var bgtargets_data = require(cwd + '/' + bgtargets_input);
-    var isf_data = require(cwd + '/' + isf_input);
-    var basalprofile_data = require(cwd + '/' + basalprofile_input);
-    var carbratio_data = require(cwd + '/' + carbratio_input);;
+    var pumpsettings_data = cwd + '/' + pumpsettings_input;
+    var bgtargets_data = cwd + '/' + bgtargets_input ;
+    var isf_data = cwd + '/' + isf_input;
+    var basalprofile_data = cwd + '/' + basalprofile_input;
+    var carbratio_data = cwd + '/' + carbratio_input;
 
     var profile = {        
           carbs_hr: 28 // TODO: verify this is completely unused and consider removing it if so
