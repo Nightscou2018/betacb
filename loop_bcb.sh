@@ -97,4 +97,3 @@ tail requestedtemp.json
 #grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
 #openaps report invoke enactedtemp.json
 
-
