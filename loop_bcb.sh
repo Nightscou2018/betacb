@@ -59,8 +59,8 @@ cp iob.json.new iob.json
 
 openaps report invoke currenttemp.json.new
 grep temp currenttemp.json.new && cp currenttemp.json.new currenttemp.json
-openaps report invoke pumphistory.json.new
-grep timestamp pumphistory.json.new && cp pumphistory.json.new pumphistory.json
+#openaps report invoke pumphistory.json.new
+grep timestamp pump_history.json.new && cp pump_history.json.new pump_history.json
 
 nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
@@ -71,7 +71,7 @@ grep temp requestedtemp.json.new -q && cp requestedtemp.json.new requestedtemp.j
 
 #tail clock.json
 #tail currenttemp.json
-head -20 pump_history.json
+#head -20 pump_history.json
 
 echo "Querying pump settings"
 openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" 
@@ -87,7 +87,7 @@ grep sens profile.json.new -q && cp profile.json.new profile.json
 grep iob iob.json.new -q && cp iob.json.new iob.json
 grep temp requestedtemp.json.new -q && cp requestedtemp.json.new requestedtemp.json
 
-# tail profile.json
+#tail profile.json
 #tail iob.json
 #tail requestedtemp.json
 
