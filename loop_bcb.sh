@@ -65,21 +65,21 @@ grep timestamp pumphistory.json.new && cp pumphistory.json.new pumphistory.json
 nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
 #openaps suggest
-grep sens profile.json.new && cp profile.json.new profile.json
-grep iob iob.json.new && cp iob.json.new iob.json
-grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
+grep sens profile.json.new -q && cp profile.json.new profile.json
+grep iob iob.json.new -q && cp iob.json.new iob.json
+grep temp requestedtemp.json.new -q && cp requestedtemp.json.new requestedtemp.json
 
-tail clock.json
-tail currenttemp.json
+#tail clock.json
+#tail currenttemp.json
 head -20 pump_history.json
 
 echo "Querying pump settings"
 openaps pumpsettings || openaps pumpsettings || die "Can't query pump settings" 
-grep insulin_action_curve pump_settings.json.new && cp pump_settings.json.new pump_settings.json
-grep "mg/dL" bg_targets.json.new && cp bg_targets.json.new bg_targets.json
-grep sensitivity isf.json.new && cp isf.json.new isf.json
-grep rate current_basal_profile.json.new && cp current_basal_profile.json.new current_basal_profile.json
-grep grams carb_ratio.json.new && cp carb_ratio.json.new carb_ratio.json
+grep insulin_action_curve pump_settings.json.new -q && cp pump_settings.json.new pump_settings.json
+grep "mg/dL" bg_targets.json.new -q && cp bg_targets.json.new bg_targets.json
+grep sensitivity isf.json.new -q && cp isf.json.new isf.json
+grep rate current_basal_profile.json.new -q && cp current_basal_profile.json.new current_basal_profile.json
+grep grams carb_ratio.json.new -q && cp carb_ratio.json.new carb_ratio.json
 
 #openaps suggest || die "Can't calculate IOB or basal"
 nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
