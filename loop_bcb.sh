@@ -17,13 +17,14 @@ trap finish EXIT
 
 cd /home/pi/betacb
 
+find *.json -mmin -15 -exec mv {} {}.old \;
+
 echo "Querying CGM"
 openaps use dex iter_glucose 50 > glucose.json.new
 grep glucose glucose.json.new -m 2 && cp glucose.json.new glucose.json 
 # tgh: find this file if modified less than 10 minutes ago, pass results to egrep, if egrep successful grep glucose within it, if you can't, die
 #find glucose.json -mmin -10 | egrep '.*' && grep glucose glucose.json -m 2 || die "Can't read from CGM"
 #head -15 glucose.json
-find *.json -mmin -15 -exec mv {} {}.old \;
 
 numprocs=$(fuser -n file $(python -m decocare.scan) 2>&1 | wc -l)
 if [[ $numprocs -gt 0 ]] ; then
