@@ -61,7 +61,7 @@ cp iob.json.new iob.json
 openaps report invoke currenttemp.json.new
 grep temp currenttemp.json.new && cp currenttemp.json.new currenttemp.json
 #openaps report invoke pumphistory.json.new
-grep timestamp pump_history.json.new && cp pump_history.json.new pump_history.json
+grep timestamp pump_history.json.new -q && cp pump_history.json.new pump_history.json
 
 nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
