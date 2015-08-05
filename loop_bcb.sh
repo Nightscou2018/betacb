@@ -54,7 +54,7 @@ nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_p
 cp profile.json.new profile.json
 
 openaps report invoke pump_history.json.new
-nodejs iob.js pump_history.json profile.json clock.json > iob.json.new
+nodejs iob.js pump_history.json.new profile.json clock.json > iob.json.new
 cp iob.json.new iob.json
 
 openaps report invoke currenttemp.json.new
