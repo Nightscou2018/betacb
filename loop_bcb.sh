@@ -19,13 +19,11 @@ cd /home/pi/betacb
 
 echo "Querying CGM"
 openaps use dex iter_glucose 50 > glucose.json.new
-#openaps report invoke glucose.json.new || openaps report invoke glucose.json.new 
-grep glucose glucose.json.new -m 15 && cp glucose.json.new glucose.json 
+grep glucose glucose.json.new -m 2 && cp glucose.json.new glucose.json 
 # tgh: find this file if modified less than 10 minutes ago, pass results to egrep, if egrep successful grep glucose within it, if you can't, die
-find glucose.json -mmin -10 | egrep '.*' && grep glucose glucose.json -m 15|| die "Can't read from CGM"
-head -15 glucose.json
-
-find *.json -mmin 15 -exec mv {} {}.old \;
+#find glucose.json -mmin -10 | egrep '.*' && grep glucose glucose.json -m 2 || die "Can't read from CGM"
+#head -15 glucose.json
+find *.json -mmin -15 -exec mv {} {}.old \;
 
 numprocs=$(fuser -n file $(python -m decocare.scan) 2>&1 | wc -l)
 if [[ $numprocs -gt 0 ]] ; then
@@ -37,7 +35,6 @@ openaps status || openaps status || die "Can't get pump status"
 grep status status.json.new && cp status.json.new status.json
 echo "Querying pump time and five other pump queries"
 openaps pumptime || openaps pumptime || die "Can't query pump"
-#openaps pumpquery || openaps pumpquery
 openaps report invoke pump_settings.json.new
 openaps report invoke bg_targets.json.new
 openaps report invoke isf.json.new
@@ -48,7 +45,9 @@ cp bg_targets.json.new bg_targets.json
 cp isf.json.new isf.json
 cp current_basal_profile.json.new current_basal_profile.json
 cp carb_ratio.json.new carb_ratio.json
-cp clock.json.new clock.json
+#cp clock.json.new clock.json
+
+find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
 
 nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_profile.json carb_ratio.json > profile.json.new
 
@@ -60,7 +59,6 @@ cp iob.json.new iob.json
 
 nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
 
-find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
 openaps report invoke currenttemp.json.new
 grep temp currenttemp.json.new && cp currenttemp.json.new currenttemp.json
 openaps report invoke pumphistory.json.new
