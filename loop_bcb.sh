@@ -83,13 +83,13 @@ grep grams carb_ratio.json.new && cp carb_ratio.json.new carb_ratio.json
 
 #openaps suggest || die "Can't calculate IOB or basal"
 nodejs determine-basal.js iob.json currenttemp.json glucose.json profile.json > requestedtemp.json.new
-grep sens profile.json.new && cp profile.json.new profile.json
-grep iob iob.json.new && cp iob.json.new iob.json
-grep temp requestedtemp.json.new && cp requestedtemp.json.new requestedtemp.json
+grep sens profile.json.new -q && cp profile.json.new profile.json
+grep iob iob.json.new -q && cp iob.json.new iob.json
+grep temp requestedtemp.json.new -q && cp requestedtemp.json.new requestedtemp.json
 
-tail profile.json
-tail iob.json
-tail requestedtemp.json
+# tail profile.json
+#tail iob.json
+#tail requestedtemp.json
 
 openaps use pump522 set_temp_basal requestedtemp.json || echo "temp basal not changed"
 #grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
