@@ -46,7 +46,6 @@ cp bg_targets.json.new bg_targets.json
 cp isf.json.new isf.json
 cp current_basal_profile.json.new current_basal_profile.json
 cp carb_ratio.json.new carb_ratio.json
-#cp clock.json.new clock.json
 
 find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
 
