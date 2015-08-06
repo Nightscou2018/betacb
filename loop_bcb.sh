@@ -105,3 +105,4 @@ openaps use pump522 set_temp_basal requestedtemp.json > enactedtemp.json || echo
 echo "enacted temp is "
 cat enactedtemp.json
 
+

@@ -12,8 +12,6 @@ echo $pTime
 
 date --set $pTime 
 
-#set +x
-# check on stick
 
 #pumpStatus=$(openaps use pump522 status)
 #sleep 1
