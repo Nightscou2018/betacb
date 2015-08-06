@@ -94,6 +94,7 @@ echo "requested temp is "
 cat requestedtemp.json
 
 openaps use pump522 set_temp_basal requestedtemp.json > enactedtemp.json || echo "temp basal not changed"
-#grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
-#openaps report invoke enactedtemp.json
+
+echo "enacted temp is "
+cat enactedtemp.json
 
