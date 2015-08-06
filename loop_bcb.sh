@@ -2,7 +2,7 @@
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 die() { echo "$@" ; exit 1; }
-
+## todo don't rely on time from rpi
 # only one process can talk to the pump at a time
 ls /tmp/openaps.lock >/dev/null 2>/dev/null && die "OpenAPS already running: exiting" && exit
 
