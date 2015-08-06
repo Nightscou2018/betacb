@@ -90,9 +90,10 @@ grep temp requestedtemp.json.new -q && cp requestedtemp.json.new requestedtemp.j
 
 #tail profile.json
 #tail iob.json
-#tail requestedtemp.json
+echo "requested temp is " 
+cat requestedtemp.json
 
-openaps use pump522 set_temp_basal requestedtemp.json || echo "temp basal not changed"
+openaps use pump522 set_temp_basal requestedtemp.json > enactedtemp.json || echo "temp basal not changed"
 #grep rate requestedtemp.json && ( openaps enact || openaps enact ) && tail enactedtemp.json
 #openaps report invoke enactedtemp.json
 
