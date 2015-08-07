@@ -9,7 +9,7 @@ echo $rawTime
 
 pTime=$(echo $rawTime | mawk '{ sub("T"," ") ; print }')
 echo $pTime
-echo "'+" & $pTime & "'"
+echo "'+" +  $pTime + "'"
 #date --set "'" & $pTime & "'"
 
 
