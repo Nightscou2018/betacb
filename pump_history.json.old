@@ -1,5 +1,71 @@
 [
   {
+    "_type": "NewTimeSet", 
+    "_description": "NewTimeSet 2015-08-06T12:16:00 head[2], body[0] op[0x18]", 
+    "date": 1438884960000.0, 
+    "timestamp": "2015-08-06T12:16:00", 
+    "_body": "", 
+    "_head": "1800", 
+    "_date": "80100c060f"
+  }, 
+  {
+    "_type": "ChangeTime", 
+    "_description": "ChangeTime 2015-08-06T13:13:36 head[2], body[0] op[0x17]", 
+    "date": 1438888416000.0, 
+    "timestamp": "2015-08-06T13:13:36", 
+    "_body": "", 
+    "_head": "1700", 
+    "_date": "a40d0d060f"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2015-08-06T13:13:21 head[2], body[0] op[0x64]", 
+    "date": 1438888401000.0, 
+    "timestamp": "2015-08-06T13:13:21", 
+    "_body": "", 
+    "_head": "6400", 
+    "_date": "950d0d060f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-06T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438840800000.0, 
+    "timestamp": "2015-08-06T00:00:00", 
+    "_body": "050c00e800000000042c042c64000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "850f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-06T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438840800000.0, 
+    "timestamp": "2015-08-06T00:00:00", 
+    "_body": "", 
+    "_head": "070000042c", 
+    "_date": "850f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T19:10:57 head[2], body[0] op[0x16]", 
+    "date": 1438823457000.0, 
+    "timestamp": "2015-08-05T19:10:57", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b90a13450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T19:10:57 head[2], body[1] op[0x33]", 
+    "date": 1438823457000.0, 
+    "timestamp": "2015-08-05T19:10:57", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "b90a13450f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-08-05T18:34:53 head[2], body[0] op[0x16]", 
@@ -1246,76 +1312,5 @@
     "_body": "", 
     "_head": "0700000376", 
     "_date": "768f"
-  }, 
-  {
-    "programmed": 0.5, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-07-22T20:19:34 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-07-22T20:19:34", 
-    "_body": "", 
-    "_head": "01050500", 
-    "duration": 0, 
-    "amount": 0.5, 
-    "date": 1437617974000.0, 
-    "type": "normal", 
-    "_date": "62d354160f"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2015-07-22T00:00:00 head[1], body[41] op[0x6d]", 
-    "date": 1437544800000.0, 
-    "timestamp": "2015-07-22T00:00:00", 
-    "_body": "050c00e800000000038a036260002804000000280400000000000000286401000000010c00e8000000", 
-    "_head": "6d", 
-    "_date": "758f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-07-22T00:00:00 head[5], body[0] op[0x07]", 
-    "date": 1437544800000.0, 
-    "timestamp": "2015-07-22T00:00:00", 
-    "_body": "", 
-    "_head": "070000038a", 
-    "_date": "758f"
-  }, 
-  {
-    "programmed": 1.0, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-07-21T20:01:03 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-07-21T20:01:03", 
-    "_body": "", 
-    "_head": "010a0a00", 
-    "duration": 0, 
-    "amount": 1.0, 
-    "date": 1437530463000.0, 
-    "type": "normal", 
-    "_date": "43c154150f"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2015-07-21T00:00:00 head[1], body[41] op[0x6d]", 
-    "date": 1437458400000.0, 
-    "timestamp": "2015-07-21T00:00:00", 
-    "_body": "050c00e8000000000296029664000000000000000000000000000000000000000000000c00e8000000", 
-    "_head": "6d", 
-    "_date": "748f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-07-21T00:00:00 head[5], body[0] op[0x07]", 
-    "date": 1437458400000.0, 
-    "timestamp": "2015-07-21T00:00:00", 
-    "_body": "", 
-    "_head": "0700000296", 
-    "_date": "748f"
-  }, 
-  {
-    "_type": "PumpResume", 
-    "_description": "PumpResume 2015-07-20T06:04:08 head[2], body[0] op[0x1f]", 
-    "date": 1437393848000.0, 
-    "timestamp": "2015-07-20T06:04:08", 
-    "_body": "", 
-    "_head": "1f00", 
-    "_date": "48c406140f"
   }
 ]
