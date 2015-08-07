@@ -9,8 +9,8 @@ echo $rawTime
 
 pTime=$(echo $rawTime | mawk '{ sub("T"," ") ; print }')
 echo $pTime
-echo "'+" +  $pTime + "'"
-#date --set "'" & $pTime & "'"
+
+date --set=$pTime 
 
 
 #pumpStatus=$(openaps use pump522 status)
