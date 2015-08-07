@@ -47,7 +47,14 @@ cp isf.json.new isf.json
 cp current_basal_profile.json.new current_basal_profile.json
 cp carb_ratio.json.new carb_ratio.json
 
+echo "pump time"
 find clock.json.new -mmin -10 | egrep -q '.*' && grep T clock.json.new && cp clock.json.new clock.json
+
+echo "cgm time"
+grep "display_time" glucose.json | head -n 1
+
+echo "RPi time"
+date
 
 nodejs getprofile.js pump_settings.json bg_targets.json isf.json current_basal_profile.json carb_ratio.json > profile.json.new
 
