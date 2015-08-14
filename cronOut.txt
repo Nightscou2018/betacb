@@ -105,3 +105,7 @@ RPi time
 Fri Aug 14 22:40:54 UTC 2015
 pump522://JSON/iter_pump/pump_history.json.new
 reporting pump_history.json.new
+pump522://JSON/read_temp_basal/currenttemp.json.new
+reporting currenttemp.json.new
+  "temp": "absolute"
+Querying pump settings
