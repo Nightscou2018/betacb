@@ -1,0 +1,78 @@
+No lockfile: continuing
+Querying CGM
+    "glucose": 293
+    "glucose": 290
+Checking pump status
+pump522://JSON/status/status.json.new
+reporting status.json.new
+  "status": "normal", 
+Querying pump time and five other pump queries
+pump522://JSON/read_clock/clock.json.new
+reporting clock.json.new
+pump522://JSON/settings/pump_settings.json.new
+reporting pump_settings.json.new
+pump522://JSON/read_bg_targets/bg_targets.json.new
+reporting bg_targets.json.new
+pump522://JSON/read_insulin_sensitivies/isf.json.new
+reporting isf.json.new
+pump522://JSON/read_selected_basal_profile/current_basal_profile.json.new
+reporting current_basal_profile.json.new
+pump522://JSON/read_carb_ratios/carb_ratio.json.new
+reporting carb_ratio.json.new
+pump time
+"2015-08-14T18:21:28"
+cgm time
+    "display_time": "2015-08-14T18:17:48", 
+RPi time
+Fri Aug 14 22:20:55 UTC 2015
+pump522://JSON/iter_pump/pump_history.json.new
+reporting pump_history.json.new
+pump522://JSON/read_temp_basal/currenttemp.json.new
+reporting currenttemp.json.new
+  "temp": "absolute"
+Querying pump settings
+pump522://JSON/read_settings/pumpsettings.json.new
+reporting pumpsettings.json.new
+requested temp is 
+{"temp":"absolute","bg":293,"tick":"+3","eventualBG":302,"snoozeBG":302,"reason":"BG data is too old"}
+temp basal not changed
+enacted temp is 
+No lockfile: continuing
+Querying CGM
+    "glucose": 292
+    "glucose": 295
+Checking pump status
+pump522://JSON/status/status.json.new
+reporting status.json.new
+  "status": "normal", 
+Querying pump time and five other pump queries
+pump522://JSON/read_clock/clock.json.new
+reporting clock.json.new
+pump522://JSON/settings/pump_settings.json.new
+reporting pump_settings.json.new
+pump522://JSON/read_bg_targets/bg_targets.json.new
+reporting bg_targets.json.new
+pump522://JSON/read_insulin_sensitivies/isf.json.new
+reporting isf.json.new
+pump522://JSON/read_selected_basal_profile/current_basal_profile.json.new
+reporting current_basal_profile.json.new
+pump522://JSON/read_carb_ratios/carb_ratio.json.new
+reporting carb_ratio.json.new
+pump time
+"2015-08-14T18:31:28"
+cgm time
+    "display_time": "2015-08-14T18:27:48", 
+RPi time
+Fri Aug 14 22:30:55 UTC 2015
+pump522://JSON/iter_pump/pump_history.json.new
+reporting pump_history.json.new
+pump522://JSON/read_temp_basal/currenttemp.json.new
+reporting currenttemp.json.new
+  "temp": "absolute"
+Querying pump settings
+pump522://JSON/read_settings/pumpsettings.json.new
+reporting pumpsettings.json.new
+requested temp is 
+{"temp":"absolute","bg":292,"tick":-3,"eventualBG":281,"snoozeBG":281,"reason":"BG data is too old"}
+temp basal not changed
+enacted temp is 
