@@ -76,3 +76,5 @@ requested temp is
 {"temp":"absolute","bg":292,"tick":-3,"eventualBG":281,"snoozeBG":281,"reason":"BG data is too old"}
 temp basal not changed
 enacted temp is 
+No lockfile: continuing
+Querying CGM
