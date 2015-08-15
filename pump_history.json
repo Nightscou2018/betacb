@@ -1,0 +1,990 @@
+[
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-15T17:50:00 head[2], body[0] op[0x16]", 
+    "date": 1439661000000.0, 
+    "timestamp": "2015-08-15T17:50:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "8032114f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T17:50:00 head[2], body[1] op[0x33]", 
+    "date": 1439661000000.0, 
+    "timestamp": "2015-08-15T17:50:00", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "8032114f0f"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2015-08-15T17:41:09 head[2], body[0] op[0x0c]", 
+    "date": 1439660469000.0, 
+    "timestamp": "2015-08-15T17:41:09", 
+    "_body": "", 
+    "_head": "0c3d", 
+    "_date": "8929110f0f"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2015-08-15T17:41:00 head[4], body[0] op[0x06]", 
+    "date": 1439660460000.0, 
+    "timestamp": "2015-08-15T17:41:00", 
+    "_body": "", 
+    "_head": "063d060e", 
+    "_date": "8029714f0f"
+  }, 
+  {
+    "_type": "NewTimeSet", 
+    "_description": "NewTimeSet 2015-08-15T17:41:00 head[2], body[0] op[0x18]", 
+    "date": 1439660460000.0, 
+    "timestamp": "2015-08-15T17:41:00", 
+    "_body": "", 
+    "_head": "1800", 
+    "_date": "8029110f0f"
+  }, 
+  {
+    "_type": "ChangeTime", 
+    "_description": "ChangeTime 2005-01-01T00:01:23 head[2], body[0] op[0x17]", 
+    "date": 1104537683000.0, 
+    "timestamp": "2005-01-01T00:01:23", 
+    "_body": "", 
+    "_head": "1700", 
+    "_date": "1741000105"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2005-01-01T00:00:43 head[2], body[0] op[0x64]", 
+    "date": 1104537643000.0, 
+    "timestamp": "2005-01-01T00:00:43", 
+    "_body": "", 
+    "_head": "6401", 
+    "_date": "2b40000105"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2005-01-01T00:00:26 head[2], body[0] op[0x0c]", 
+    "date": 1104537626000.0, 
+    "timestamp": "2005-01-01T00:00:26", 
+    "_body": "", 
+    "_head": "0c03", 
+    "_date": "1a40000105"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2015-08-15T17:21:38 head[4], body[0] op[0x06]", 
+    "date": 1439659298000.0, 
+    "timestamp": "2015-08-15T17:21:38", 
+    "_body": "", 
+    "_head": "060304d2", 
+    "_date": "a615710f0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2005-01-01T00:00:00 head[2], body[0] op[0x16]", 
+    "date": 1104537600000.0, 
+    "timestamp": "2005-01-01T00:00:00", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "0040000105"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2005-01-01T00:00:00 head[2], body[1] op[0x33]", 
+    "date": 1104537600000.0, 
+    "timestamp": "2005-01-01T00:00:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "0040000105"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2015-08-15T17:21:38 head[2], body[0] op[0x1a]", 
+    "date": 1439659298000.0, 
+    "timestamp": "2015-08-15T17:21:38", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "a615110f0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-15T17:01:47 head[2], body[0] op[0x16]", 
+    "date": 1439658107000.0, 
+    "timestamp": "2015-08-15T17:01:47", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "af01114f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T17:01:47 head[2], body[1] op[0x33]", 
+    "date": 1439658107000.0, 
+    "timestamp": "2015-08-15T17:01:47", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "af01114f0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2015-08-15T16:51:52 head[2], body[0] op[0x16]", 
+    "date": 1439657512000.0, 
+    "timestamp": "2015-08-15T16:51:52", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "b433104f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T16:51:52 head[2], body[1] op[0x33]", 
+    "date": 1439657512000.0, 
+    "timestamp": "2015-08-15T16:51:52", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "b433104f0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-15T16:27:28 head[2], body[0] op[0x16]", 
+    "date": 1439656048000.0, 
+    "timestamp": "2015-08-15T16:27:28", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "9c1b100f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T16:27:28 head[2], body[1] op[0x33]", 
+    "date": 1439656048000.0, 
+    "timestamp": "2015-08-15T16:27:28", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "9c1b100f0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-15T16:22:35 head[2], body[0] op[0x16]", 
+    "date": 1439655755000.0, 
+    "timestamp": "2015-08-15T16:22:35", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "a316104f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T16:22:35 head[2], body[1] op[0x33]", 
+    "date": 1439655755000.0, 
+    "timestamp": "2015-08-15T16:22:35", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "a316104f0f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-15T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1439596800000.0, 
+    "timestamp": "2015-08-15T00:00:00", 
+    "_body": "050c00e8000000000246024664000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "8e0f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-15T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1439596800000.0, 
+    "timestamp": "2015-08-15T00:00:00", 
+    "_body": "", 
+    "_head": "0700000246", 
+    "_date": "8e0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-14T18:09:19 head[2], body[0] op[0x16]", 
+    "date": 1439575759000.0, 
+    "timestamp": "2015-08-14T18:09:19", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "9309124e0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-14T18:09:19 head[2], body[1] op[0x33]", 
+    "date": 1439575759000.0, 
+    "timestamp": "2015-08-14T18:09:19", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "9309124e0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-14T12:39:33 head[2], body[0] op[0x16]", 
+    "date": 1439555973000.0, 
+    "timestamp": "2015-08-14T12:39:33", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "a1270c4e0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-14T12:39:33 head[2], body[1] op[0x33]", 
+    "date": 1439555973000.0, 
+    "timestamp": "2015-08-14T12:39:33", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "a1270c4e0f"
+  }, 
+  {
+    "_type": "NewTimeSet", 
+    "_description": "NewTimeSet 2015-08-14T11:55:00 head[2], body[0] op[0x18]", 
+    "date": 1439553300000.0, 
+    "timestamp": "2015-08-14T11:55:00", 
+    "_body": "", 
+    "_head": "1800", 
+    "_date": "80370b0e0f"
+  }, 
+  {
+    "_type": "ChangeTime", 
+    "_description": "ChangeTime 2015-08-14T09:55:27 head[2], body[0] op[0x17]", 
+    "date": 1439546127000.0, 
+    "timestamp": "2015-08-14T09:55:27", 
+    "_body": "", 
+    "_head": "1700", 
+    "_date": "9b37090e0f"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2015-08-14T09:55:19 head[2], body[0] op[0x64]", 
+    "date": 1439546119000.0, 
+    "timestamp": "2015-08-14T09:55:19", 
+    "_body": "", 
+    "_head": "6400", 
+    "_date": "9337090e0f"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2015-08-14T09:53:28 head[5], body[0] op[0x03]", 
+    "date": 1439546008000.0, 
+    "timestamp": "2015-08-14T09:53:28", 
+    "_body": "", 
+    "fixed": 0.2, 
+    "_head": "0300020002", 
+    "amount": 0.2, 
+    "_date": "9c35090e0f"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2015-08-14T09:53:12 head[5], body[0] op[0x03]", 
+    "date": 1439545992000.0, 
+    "timestamp": "2015-08-14T09:53:12", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "0300000000", 
+    "amount": 0.0, 
+    "_date": "8c35290e0f"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2015-08-14T09:52:09 head[2], body[0] op[0x21]", 
+    "date": 1439545929000.0, 
+    "timestamp": "2015-08-14T09:52:09", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "8934090e0f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-10T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1439164800000.0, 
+    "timestamp": "2015-08-10T00:00:00", 
+    "_body": "050c00e80000000000c000c064000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "890f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-10T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1439164800000.0, 
+    "timestamp": "2015-08-10T00:00:00", 
+    "_body": "", 
+    "_head": "07000000c0", 
+    "_date": "890f"
+  }, 
+  {
+    "_type": "NewTimeSet", 
+    "_description": "NewTimeSet 2015-08-14T09:52:00 head[2], body[0] op[0x18]", 
+    "date": 1439545920000.0, 
+    "timestamp": "2015-08-14T09:52:00", 
+    "_body": "", 
+    "_head": "1800", 
+    "_date": "8034090e0f"
+  }, 
+  {
+    "_type": "ChangeTime", 
+    "_description": "ChangeTime 2005-01-01T00:11:06 head[2], body[0] op[0x17]", 
+    "date": 1104538266000.0, 
+    "timestamp": "2005-01-01T00:11:06", 
+    "_body": "", 
+    "_head": "1700", 
+    "_date": "064b000105"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2005-01-01T00:10:21 head[2], body[0] op[0x64]", 
+    "date": 1104538221000.0, 
+    "timestamp": "2005-01-01T00:10:21", 
+    "_body": "", 
+    "_head": "6400", 
+    "_date": "154a000105"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2005-01-01T00:09:42 head[2], body[0] op[0x64]", 
+    "date": 1104538182000.0, 
+    "timestamp": "2005-01-01T00:09:42", 
+    "_body": "", 
+    "_head": "6400", 
+    "_date": "2a49000105"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2005-01-01T00:08:50 head[2], body[0] op[0x1a]", 
+    "date": 1104538130000.0, 
+    "timestamp": "2005-01-01T00:08:50", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "3248000105"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2005-01-01T00:08:09 head[2], body[0] op[0x0c]", 
+    "date": 1104538089000.0, 
+    "timestamp": "2005-01-01T00:08:09", 
+    "_body": "", 
+    "_head": "0c37", 
+    "_date": "0948000105"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2005-01-01T00:08:09 head[2], body[0] op[0x1a]", 
+    "date": 1104538089000.0, 
+    "timestamp": "2005-01-01T00:08:09", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "0948000105"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2005-01-01T00:00:55 head[4], body[0] op[0x06]", 
+    "date": 1104537655000.0, 
+    "timestamp": "2005-01-01T00:00:55", 
+    "_body": "", 
+    "_head": "06370782", 
+    "_date": "374040a105"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2005-01-01T00:07:39 head[2], body[0] op[0x1a]", 
+    "date": 1104538059000.0, 
+    "timestamp": "2005-01-01T00:07:39", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "2747000105"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2005-01-01T00:00:55 head[2], body[0] op[0x1a]", 
+    "date": 1104537655000.0, 
+    "timestamp": "2005-01-01T00:00:55", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "3740000105"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2005-01-01T00:00:47 head[2], body[0] op[0x0c]", 
+    "date": 1104537647000.0, 
+    "timestamp": "2005-01-01T00:00:47", 
+    "_body": "", 
+    "_head": "0c37", 
+    "_date": "2f40000105"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2005-01-01T00:00:40 head[2], body[0] op[0x0c]", 
+    "date": 1104537640000.0, 
+    "timestamp": "2005-01-01T00:00:40", 
+    "_body": "", 
+    "_head": "0c03", 
+    "_date": "2840000105"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2005-01-01T00:00:29 head[2], body[0] op[0x0c]", 
+    "date": 1104537629000.0, 
+    "timestamp": "2005-01-01T00:00:29", 
+    "_body": "", 
+    "_head": "0c3e", 
+    "_date": "1d40000105"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2005-01-01T00:00:00 head[4], body[0] op[0x06]", 
+    "date": 1104537600000.0, 
+    "timestamp": "2005-01-01T00:00:00", 
+    "_body": "", 
+    "_head": "063703ad", 
+    "_date": "004040a105"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2015-08-09T16:13:52 head[4], body[0] op[0x06]", 
+    "date": 1439136832000.0, 
+    "timestamp": "2015-08-09T16:13:52", 
+    "_body": "", 
+    "_head": "060304d2", 
+    "_date": "b40d70090f"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2015-08-09T16:13:52 head[2], body[0] op[0x1a]", 
+    "date": 1439136832000.0, 
+    "timestamp": "2015-08-09T16:13:52", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "b40d10090f"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2015-08-09T05:28:14 head[4], body[0] op[0x06]", 
+    "date": 1439098094000.0, 
+    "timestamp": "2015-08-09T05:28:14", 
+    "_body": "", 
+    "_head": "063e034e", 
+    "_date": "8e1c45490f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-09T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1439078400000.0, 
+    "timestamp": "2015-08-09T00:00:00", 
+    "_body": "050c00e80000000003f603f664000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "880f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-09T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1439078400000.0, 
+    "timestamp": "2015-08-09T00:00:00", 
+    "_body": "", 
+    "_head": "07000003f6", 
+    "_date": "880f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-08T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438992000000.0, 
+    "timestamp": "2015-08-08T00:00:00", 
+    "_body": "050c00e80000000003f603f664000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "870f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-08T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438992000000.0, 
+    "timestamp": "2015-08-08T00:00:00", 
+    "_body": "", 
+    "_head": "07000003f6", 
+    "_date": "870f"
+  }, 
+  {
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2015-08-07T23:52:10 head[2], body[0] op[0x34]", 
+    "date": 1438991530000.0, 
+    "timestamp": "2015-08-07T23:52:10", 
+    "_body": "", 
+    "_head": "344b", 
+    "amount": 7.5, 
+    "_date": "8a3417070f"
+  }, 
+  {
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2015-08-07T17:20:52 head[2], body[0] op[0x34]", 
+    "date": 1438968052000.0, 
+    "timestamp": "2015-08-07T17:20:52", 
+    "_body": "", 
+    "_head": "3496", 
+    "amount": 15.0, 
+    "_date": "b41411070f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-07T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438905600000.0, 
+    "timestamp": "2015-08-07T00:00:00", 
+    "_body": "050c00e8000000000436043664000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "860f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-07T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438905600000.0, 
+    "timestamp": "2015-08-07T00:00:00", 
+    "_body": "", 
+    "_head": "0700000436", 
+    "_date": "860f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-06T19:55:57 head[2], body[0] op[0x16]", 
+    "date": 1438890957000.0, 
+    "timestamp": "2015-08-06T19:55:57", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b93713460f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-06T19:55:57 head[2], body[1] op[0x33]", 
+    "date": 1438890957000.0, 
+    "timestamp": "2015-08-06T19:55:57", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "b93713460f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2015-08-06T18:32:24 head[2], body[0] op[0x16]", 
+    "date": 1438885944000.0, 
+    "timestamp": "2015-08-06T18:32:24", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "982012460f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-06T18:32:24 head[2], body[1] op[0x33]", 
+    "date": 1438885944000.0, 
+    "timestamp": "2015-08-06T18:32:24", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "982012460f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-06T18:15:06 head[2], body[0] op[0x16]", 
+    "date": 1438884906000.0, 
+    "timestamp": "2015-08-06T18:15:06", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "860f12460f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-06T18:15:06 head[2], body[1] op[0x33]", 
+    "date": 1438884906000.0, 
+    "timestamp": "2015-08-06T18:15:06", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "860f12460f"
+  }, 
+  {
+    "_type": "NewTimeSet", 
+    "_description": "NewTimeSet 2015-08-06T12:16:00 head[2], body[0] op[0x18]", 
+    "date": 1438863360000.0, 
+    "timestamp": "2015-08-06T12:16:00", 
+    "_body": "", 
+    "_head": "1800", 
+    "_date": "80100c060f"
+  }, 
+  {
+    "_type": "ChangeTime", 
+    "_description": "ChangeTime 2015-08-06T13:13:36 head[2], body[0] op[0x17]", 
+    "date": 1438866816000.0, 
+    "timestamp": "2015-08-06T13:13:36", 
+    "_body": "", 
+    "_head": "1700", 
+    "_date": "a40d0d060f"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2015-08-06T13:13:21 head[2], body[0] op[0x64]", 
+    "date": 1438866801000.0, 
+    "timestamp": "2015-08-06T13:13:21", 
+    "_body": "", 
+    "_head": "6400", 
+    "_date": "950d0d060f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-06T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438819200000.0, 
+    "timestamp": "2015-08-06T00:00:00", 
+    "_body": "050c00e800000000042c042c64000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "850f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-06T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438819200000.0, 
+    "timestamp": "2015-08-06T00:00:00", 
+    "_body": "", 
+    "_head": "070000042c", 
+    "_date": "850f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T19:10:57 head[2], body[0] op[0x16]", 
+    "date": 1438801857000.0, 
+    "timestamp": "2015-08-05T19:10:57", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b90a13450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T19:10:57 head[2], body[1] op[0x33]", 
+    "date": 1438801857000.0, 
+    "timestamp": "2015-08-05T19:10:57", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "b90a13450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T18:34:53 head[2], body[0] op[0x16]", 
+    "date": 1438799693000.0, 
+    "timestamp": "2015-08-05T18:34:53", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b52212050f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T18:34:53 head[2], body[1] op[0x33]", 
+    "date": 1438799693000.0, 
+    "timestamp": "2015-08-05T18:34:53", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "b52212050f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T18:34:02 head[2], body[0] op[0x16]", 
+    "date": 1438799642000.0, 
+    "timestamp": "2015-08-05T18:34:02", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "822212450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T18:34:02 head[2], body[1] op[0x33]", 
+    "date": 1438799642000.0, 
+    "timestamp": "2015-08-05T18:34:02", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "822212450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T18:22:00 head[2], body[0] op[0x16]", 
+    "date": 1438798920000.0, 
+    "timestamp": "2015-08-05T18:22:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "801612450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T18:22:00 head[2], body[1] op[0x33]", 
+    "date": 1438798920000.0, 
+    "timestamp": "2015-08-05T18:22:00", 
+    "_body": "00", 
+    "_head": "333e", 
+    "rate": 1.55, 
+    "_date": "801612450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2015-08-05T18:15:17 head[2], body[0] op[0x16]", 
+    "date": 1438798517000.0, 
+    "timestamp": "2015-08-05T18:15:17", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "910f12450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T18:15:17 head[2], body[1] op[0x33]", 
+    "date": 1438798517000.0, 
+    "timestamp": "2015-08-05T18:15:17", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "910f12450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T17:57:13 head[2], body[0] op[0x16]", 
+    "date": 1438797433000.0, 
+    "timestamp": "2015-08-05T17:57:13", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "8d3911450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T17:57:13 head[2], body[1] op[0x33]", 
+    "date": 1438797433000.0, 
+    "timestamp": "2015-08-05T17:57:13", 
+    "_body": "00", 
+    "_head": "3346", 
+    "rate": 1.75, 
+    "_date": "8d3911450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T14:11:56 head[2], body[0] op[0x16]", 
+    "date": 1438783916000.0, 
+    "timestamp": "2015-08-05T14:11:56", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b80b0e450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T14:11:56 head[2], body[1] op[0x33]", 
+    "date": 1438783916000.0, 
+    "timestamp": "2015-08-05T14:11:56", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "b80b0e450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2015-08-05T13:18:49 head[2], body[0] op[0x16]", 
+    "date": 1438780729000.0, 
+    "timestamp": "2015-08-05T13:18:49", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "b1120d450f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T13:18:49 head[2], body[1] op[0x33]", 
+    "date": 1438780729000.0, 
+    "timestamp": "2015-08-05T13:18:49", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "b1120d450f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-05T13:08:07 head[2], body[0] op[0x16]", 
+    "date": 1438780087000.0, 
+    "timestamp": "2015-08-05T13:08:07", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "87080d050f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-05T13:08:07 head[2], body[1] op[0x33]", 
+    "date": 1438780087000.0, 
+    "timestamp": "2015-08-05T13:08:07", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "87080d050f"
+  }, 
+  {
+    "_type": "ChangeTempBasalType", 
+    "temp": "absolute", 
+    "_description": "ChangeTempBasalType 2015-08-05T13:07:32 head[2], body[0] op[0x62]", 
+    "date": 1438780052000.0, 
+    "timestamp": "2015-08-05T13:07:32", 
+    "_body": "", 
+    "_head": "6200", 
+    "_date": "a0070d050f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-05T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438732800000.0, 
+    "timestamp": "2015-08-05T00:00:00", 
+    "_body": "050c00e80000000003f603f664000000000000000000000000000000000000000000000c00e8000000", 
+    "_head": "6d", 
+    "_date": "840f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-05T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438732800000.0, 
+    "timestamp": "2015-08-05T00:00:00", 
+    "_body": "", 
+    "_head": "07000003f6", 
+    "_date": "840f"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-08-04T00:00:00 head[1], body[41] op[0x6d]", 
+    "date": 1438646400000.0, 
+    "timestamp": "2015-08-04T00:00:00", 
+    "_body": "050c00e80000000003f603e262001402000000140200000000000000146401000000010c00e8000000", 
+    "_head": "6d", 
+    "_date": "830f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-08-04T00:00:00 head[5], body[0] op[0x07]", 
+    "date": 1438646400000.0, 
+    "timestamp": "2015-08-04T00:00:00", 
+    "_body": "", 
+    "_head": "07000003f6", 
+    "_date": "830f"
+  }, 
+  {
+    "programmed": 0.5, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-08-03T08:08:28 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-08-03T08:08:28", 
+    "_body": "", 
+    "_head": "01050500", 
+    "duration": 0, 
+    "amount": 0.5, 
+    "date": 1438589308000.0, 
+    "type": "normal", 
+    "_date": "9c0848030f"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2015-08-03T08:08:08 head[5], body[0] op[0x03]", 
+    "date": 1438589288000.0, 
+    "timestamp": "2015-08-03T08:08:08", 
+    "_body": "", 
+    "fixed": 0.2, 
+    "_head": "0300020002", 
+    "amount": 0.2, 
+    "_date": "880808030f"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2015-08-03T08:07:50 head[5], body[0] op[0x03]", 
+    "date": 1438589270000.0, 
+    "timestamp": "2015-08-03T08:07:50", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "0300000000", 
+    "amount": 0.0, 
+    "_date": "b20728030f"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2015-08-03T08:07:24 head[2], body[0] op[0x21]", 
+    "date": 1438589244000.0, 
+    "timestamp": "2015-08-03T08:07:24", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "980708030f"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2015-08-03T08:05:37 head[2], body[0] op[0x1a]", 
+    "date": 1438589137000.0, 
+    "timestamp": "2015-08-03T08:05:37", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "a50508030f"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2015-08-03T08:05:14 head[2], body[0] op[0x0c]", 
+    "date": 1438589114000.0, 
+    "timestamp": "2015-08-03T08:05:14", 
+    "_body": "", 
+    "_head": "0c37", 
+    "_date": "8e0508030f"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2015-08-03T08:05:14 head[2], body[0] op[0x1a]", 
+    "date": 1438589114000.0, 
+    "timestamp": "2015-08-03T08:05:14", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "8e0508030f"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2015-08-03T08:03:58 head[4], body[0] op[0x06]", 
+    "date": 1438589038000.0, 
+    "timestamp": "2015-08-03T08:03:58", 
+    "_body": "", 
+    "_head": "06370794", 
+    "_date": "ba0348a30f"
+  }
+]

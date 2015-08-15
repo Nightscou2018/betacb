@@ -1,0 +1,20 @@
+{
+  "sensitivities": [
+    {
+      "i": 0, 
+      "start": "00:00:00", 
+      "sensitivity": 65, 
+      "offset": 0, 
+      "x": 0
+    }, 
+    {
+      "i": 14, 
+      "start": "07:00:00", 
+      "sensitivity": 55, 
+      "offset": 420, 
+      "x": 1
+    }
+  ], 
+  "action_type": "Fast", 
+  "first": 1
+}
