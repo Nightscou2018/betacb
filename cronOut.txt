@@ -509,3 +509,6 @@ enacted temp is
   "tick": -1
 }No lockfile: continuing
 Querying CGM
+    "glucose": 338
+    "glucose": 339
+Checking pump status
