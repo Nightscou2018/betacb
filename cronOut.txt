@@ -227,3 +227,7 @@ Querying CGM
     "glucose": 318
     "glucose": 315
 Checking pump status
+pump522://JSON/status/status.json.new
+reporting status.json.new
+  "status": "normal", 
+Querying pump time and five other pump queries
