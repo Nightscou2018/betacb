@@ -364,3 +364,7 @@ pump522://JSON/read_temp_basal/currenttemp.json.new
 reporting currenttemp.json.new
   "temp": "absolute"
 Querying pump settings
+pump522://JSON/read_settings/pumpsettings.json.new
+reporting pumpsettings.json.new
+requested temp is 
+{"temp":"absolute","bg":327,"tick":"+9","eventualBG":332,"snoozeBG":332,"duration":30,"rate":1.8,"reason":"maintain current temp (tgh)"}
