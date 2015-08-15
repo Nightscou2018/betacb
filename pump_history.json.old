@@ -1,5 +1,14 @@
 [
   {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2015-08-15T17:41:09 head[2], body[0] op[0x0c]", 
+    "date": 1439660469000.0, 
+    "timestamp": "2015-08-15T17:41:09", 
+    "_body": "", 
+    "_head": "0c3d", 
+    "_date": "8929110f0f"
+  }, 
+  {
     "_type": "NoDelivery", 
     "_description": "NoDelivery 2015-08-15T17:41:00 head[4], body[0] op[0x06]", 
     "date": 1439660460000.0, 
@@ -974,15 +983,5 @@
     "_body": "", 
     "_head": "1a00", 
     "_date": "ba0308030f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2015-08-03T07:33:39 head[2], body[0] op[0x16]", 
-    "date": 1438587219000.0, 
-    "timestamp": "2015-08-03T07:33:39", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "a72107430f"
   }
 ]

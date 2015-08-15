@@ -195,7 +195,7 @@ if (!module.parent) {
                         reason = temps_data.rate + ">~" + rate.toFixed(3);
                         console.error(reason);
                     } else {
-			reason = "maintain current temp (tgh)" // tgh added
+			reason = "maintain or begin temp (tgh)" // tgh added
                         setTempBasal(rate, 30);
                     }
         

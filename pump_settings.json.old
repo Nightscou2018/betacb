@@ -17,7 +17,7 @@
   "rf_enable": true, 
   "auto_off_duration_hrs": 0, 
   "block_enable": false, 
-  "timeformat": 0, 
+  "timeformat": 1, 
   "insulin_action_curve": 3, 
   "audio_bolus_size": 0.5, 
   "selected_pattern": 0, 
