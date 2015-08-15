@@ -135,3 +135,5 @@ reporting status.json.new
 Querying pump time and five other pump queries
 pump522://JSON/read_clock/clock.json.new
 reporting clock.json.new
+pump522://JSON/settings/pump_settings.json.new
+reporting pump_settings.json.new
