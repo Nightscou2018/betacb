@@ -102,6 +102,11 @@ cat requestedtemp.json
 
 openaps use pump522 set_temp_basal requestedtemp.json > enactedtemp.json || echo "temp basal not changed"
 
-echo "enacted temp is "
-cat enactedtemp.json
+#echo "enacted temp is "
+#cat enactedtemp.json
 
+if [ -e "enactedtemp.json" ]
+then
+    echo "enacted temp is "
+    cat enactedtemp.json
+fi
