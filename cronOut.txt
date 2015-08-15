@@ -413,3 +413,11 @@ pump522://JSON/read_temp_basal/currenttemp.json.new
 reporting currenttemp.json.new
   "temp": "absolute"
 Querying pump settings
+pump522://JSON/read_settings/pumpsettings.json.new
+reporting pumpsettings.json.new
+requested temp is 
+{"temp":"absolute","bg":334,"tick":"+2","eventualBG":340,"snoozeBG":340,"reason":"1.8>~1.800"}
+temp basal not changed
+enacted temp is 
+No lockfile: continuing
+Querying CGM
