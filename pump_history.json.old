@@ -1,5 +1,47 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-15T16:27:28 head[2], body[0] op[0x16]", 
+    "date": 1439656048000.0, 
+    "timestamp": "2015-08-15T16:27:28", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "9c1b100f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T16:27:28 head[2], body[1] op[0x33]", 
+    "date": 1439656048000.0, 
+    "timestamp": "2015-08-15T16:27:28", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "9c1b100f0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-08-15T16:22:35 head[2], body[0] op[0x16]", 
+    "date": 1439655755000.0, 
+    "timestamp": "2015-08-15T16:22:35", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "a316104f0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-08-15T16:22:35 head[2], body[1] op[0x33]", 
+    "date": 1439655755000.0, 
+    "timestamp": "2015-08-15T16:22:35", 
+    "_body": "00", 
+    "_head": "3348", 
+    "rate": 1.8, 
+    "_date": "a316104f0f"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2015-08-15T00:00:00 head[1], body[41] op[0x6d]", 
     "date": 1439596800000.0, 
@@ -1244,51 +1286,5 @@
       ]
     }, 
     "_date": "79ce091f0f"
-  }, 
-  {
-    "_type": "ChangeParadigmLinkID", 
-    "links": [
-      "000000", 
-      "000000", 
-      "000000"
-    ], 
-    "_description": "ChangeParadigmLinkID 2015-07-31T08:58:40 head[2], body[14] op[0x3c]", 
-    "date": 1438333120000.0, 
-    "timestamp": "2015-07-31T08:58:40", 
-    "_body": "3d0000000000003e000000000000", 
-    "_head": "3c00", 
-    "_date": "68fa081f0f"
-  }, 
-  {
-    "_type": "ChangeParadigmLinkID", 
-    "links": [
-      "000000", 
-      "000000", 
-      "000000"
-    ], 
-    "_description": "ChangeParadigmLinkID 2015-07-31T08:58:34 head[2], body[14] op[0x3c]", 
-    "date": 1438333114000.0, 
-    "timestamp": "2015-07-31T08:58:34", 
-    "_body": "3d0000000000003e000000000000", 
-    "_head": "3c01", 
-    "_date": "62fa081f0f"
-  }, 
-  {
-    "_type": "NewTimeSet", 
-    "_description": "NewTimeSet 2015-07-31T08:56:00 head[2], body[0] op[0x18]", 
-    "date": 1438332960000.0, 
-    "timestamp": "2015-07-31T08:56:00", 
-    "_body": "", 
-    "_head": "1800", 
-    "_date": "40f8081f0f"
-  }, 
-  {
-    "_type": "ChangeTime", 
-    "_description": "ChangeTime 2015-07-31T09:56:22 head[2], body[0] op[0x17]", 
-    "date": 1438336582000.0, 
-    "timestamp": "2015-07-31T09:56:22", 
-    "_body": "", 
-    "_head": "1700", 
-    "_date": "56f8091f0f"
   }
 ]
