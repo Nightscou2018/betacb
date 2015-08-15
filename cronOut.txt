@@ -87,3 +87,6 @@ temp basal not changed
 enacted temp is 
 No lockfile: continuing
 Querying CGM
+    "glucose": 314
+    "glucose": 310
+Checking pump status
