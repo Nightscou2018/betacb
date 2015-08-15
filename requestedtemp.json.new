@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":334,"tick":"+0","eventualBG":322,"snoozeBG":322,"reason":"1.8>~1.800"}
+{"temp":"absolute","bg":337,"tick":-1,"eventualBG":322,"snoozeBG":322,"duration":0,"rate":0,"reason":"tick = -1 and 322>~130 (tgh)"}
