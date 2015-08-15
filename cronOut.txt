@@ -34,3 +34,17 @@ pump522://JSON/read_settings/pumpsettings.json.new
 reporting pumpsettings.json.new
 requested temp is 
 {"temp":"absolute","bg":300,"tick":"+10","eventualBG":341,"snoozeBG":341,"duration":30,"rate":1.8,"reason":""}
+enacted temp is 
+{
+  "bg": 300, 
+  "temp": "absolute", 
+  "snoozeBG": 341, 
+  "recieved": true, 
+  "reason": "", 
+  "rate": 1.8, 
+  "eventualBG": 341, 
+  "timestamp": "2015-08-15T16:22:05.538312", 
+  "duration": 30, 
+  "tick": "+10"
+}No lockfile: continuing
+Querying CGM
