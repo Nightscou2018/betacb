@@ -1,2 +1,5 @@
 No lockfile: continuing
 Querying CGM
+    "glucose": 300
+    "glucose": 290
+Checking pump status
