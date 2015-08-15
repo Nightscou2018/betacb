@@ -145,6 +145,7 @@ if (!module.parent) {
                             reason = tick + " but " + eventualBG + "<" + profile_data.max_bg;
                             console.error(reason);
                         } else {
+			    reason = tick + " but " + eventualBG + ">~" + profile_data.max_bg; //tgh added
                             setTempBasal(0, 0); // cancel temp
                         }
                     } else {
@@ -194,6 +195,7 @@ if (!module.parent) {
                         reason = temps_data.rate + ">~" + rate.toFixed(3);
                         console.error(reason);
                     } else {
+			reason = "maintain current temp" // tgh added
                         setTempBasal(rate, 30);
                     }
         
