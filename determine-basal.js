@@ -112,7 +112,7 @@ if (!module.parent) {
     } else { console.error("Could not determine last BG time"); }
     var minAgo = (systemTime - bgTime) / 60 / 1000
     var threshold = profile_data.min_bg - 30;
-    var reason="";
+    var reason=".. initialized ..";
     
     if (minAgo < 10 && minAgo > -5) { // Dexcom data is recent, but not far in the future
         
