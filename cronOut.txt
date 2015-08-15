@@ -310,3 +310,4 @@ pump522://JSON/read_clock/clock.json.new
 pump522://JSON/settings/pump_settings.json.new
 pump522://JSON/read_bg_targets/bg_targets.json.new
 OpenAPS already running: exiting
+pump522://JSON/read_insulin_sensitivies/isf.json.new
