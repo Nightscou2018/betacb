@@ -307,3 +307,4 @@ pump522://JSON/status/status.json.new
   "status": "normal", 
 Querying pump time and five other pump queries
 pump522://JSON/read_clock/clock.json.new
+pump522://JSON/settings/pump_settings.json.new
