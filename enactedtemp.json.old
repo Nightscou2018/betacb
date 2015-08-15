@@ -1,12 +1,12 @@
 {
-  "bg": 315, 
+  "bg": 316, 
   "temp": "absolute", 
-  "snoozeBG": 305, 
+  "snoozeBG": 301, 
   "recieved": true, 
-  "reason": "", 
-  "rate": 0.0, 
-  "eventualBG": 305, 
-  "timestamp": "2015-08-15T16:51:22.441693", 
-  "duration": 0, 
-  "tick": -2
+  "reason": ".. initialized ..", 
+  "rate": 1.8, 
+  "eventualBG": 301, 
+  "timestamp": "2015-08-15T17:01:17.827414", 
+  "duration": 30, 
+  "tick": "+0"
 }
