@@ -98,3 +98,5 @@ pump522://JSON/read_clock/clock.json.new
 reporting clock.json.new
 pump522://JSON/settings/pump_settings.json.new
 reporting pump_settings.json.new
+pump522://JSON/read_bg_targets/bg_targets.json.new
+reporting bg_targets.json.new
